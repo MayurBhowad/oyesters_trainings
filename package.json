@@ -4,7 +4,8 @@
   "description": "A simple api for CRUD operations on Task Schema",
   "main": "server.main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node sever.main.js"
   },
   "author": "bm_mayur",
   "license": "ISC",
