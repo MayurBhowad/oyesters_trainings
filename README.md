@@ -13,9 +13,11 @@ npm i
 #### Authentication
 1. route: POST https://oyesterstrainings.herokuapp.com/api/auth/register
     - For registering new user
+    - add fields: username, email, password
 
 2. route: POST https://oyesterstrainings.herokuapp.com/api/auth/login
     - For login 
+    - add fields: email, password
 
 #### Tasks operation
 1. route: GET https://oyesterstrainings.herokuapp.com/api/task/
@@ -27,6 +29,7 @@ npm i
 3. route: POST https://oyesterstrainings.herokuapp.com/api/task/    (Private)
     - Create new task
     - Only logged in user can create tasks
+    - add fields: taskname, start, end, description
 
 4. route: PUT https://oyesterstrainings.herokuapp.com/api/task/:task_id (Private)
     - update specific task
